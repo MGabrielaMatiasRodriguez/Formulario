@@ -1,0 +1,41 @@
+body {
+  font  : 1.3rem sans-serif;
+  padding : 0.5em;
+  margin  : 0;
+  background : #222;
+}
+
+form {
+  width  : 450px;
+  height : 400px;
+  margin : 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+  background : #FFF url();
+  border-radius: 10%;
+}
+
+input {
+
+    padding      : 5px;
+    font         : bold .6em sans-serif;
+    border       : 2px solid rgb(20, 58, 185);
+    border-radius: 5px;
+    background   : none;
+}
+
+button {
+    width: 100px;
+    padding      : 5px;
+    font         : bold .6em sans-serif;
+    border       : 2px solid rgb(56, 20, 156);
+    border-radius: 5px;
+    background   : none;
+    cursor       : pointer;
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+    font-family: arial;
+  }
